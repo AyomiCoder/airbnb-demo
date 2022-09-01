@@ -1,0 +1,14 @@
+nav{
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */   
+    /* width: 200%; */
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+

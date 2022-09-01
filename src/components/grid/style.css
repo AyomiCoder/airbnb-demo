@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+div{
+    padding: 20px;
+    font-family: 'Poppins';
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero > img{
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+    max-width: 1000px;
+    align-self: center;
+}
+
+.hero > h1 {
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-size: 56px;
+}
+
+.hero > p {
+    margin-top: 0;
+    font-family: 'Poppins';
+}
+
+
