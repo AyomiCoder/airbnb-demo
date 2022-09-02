@@ -6,6 +6,7 @@ import Star from '../../img/star.png'
  function Card(props) {
     return (
         <div className="card">
+            {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
             <img src={Swim} className="card--image" alt="swim" />
             <div className="card--stats">
                 <img src={Star} className="card--star" alt="star" />
